@@ -10,5 +10,6 @@ recognize from where to resume if the program stops anywhere midway..
 
 NB:- Please go through the toStartWith.txt and toStartWith_sample.txt and change the toStartWith.txt accordingly 
 as per use.This file should be changed only for the first time. Rest of the times the program would handle...
+The path of the chromedriver should be provided if using chrome...
 
 The review crawler crawls the reviews for the restaurants.

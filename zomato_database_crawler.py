@@ -12,14 +12,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import csv
+chromedriver='F:\Tools\chromedriver'      #Change the path accordingly of the chromedriver if using Chrome
 
 
 def main_program():
     global country,city,city_name,link,city_val,driver,chromedriver
     country=city=city_name=link=''
     city_val=0
-    chromedriver = "F:\Tools\chromedriver"
-    os.environ["webdriver.chrome.driver"] = chromedriver
     driver = webdriver.Chrome(chromedriver)
     #driver = webdriver.Firefox()
 
@@ -77,8 +76,6 @@ def main_program():
                     driver.quit()
                     time.sleep(1)
                     print "\n_______________Starting Again_____________________\n"
-                    chromedriver = "F:\Tools\chromedriver"
-                    os.environ["webdriver.chrome.driver"] = chromedriver
                     driver = webdriver.Chrome(chromedriver)
                     #driver = webdriver.Firefox()
                     driver.get(city)
@@ -115,8 +112,6 @@ def main_program():
                         driver.quit()
                         time.sleep(1)
                         print "\n_______________Starting Again_____________________\n"
-                        chromedriver = "F:\Tools\chromedriver"
-                        os.environ["webdriver.chrome.driver"] = chromedriver
                         driver = webdriver.Chrome(chromedriver)
                         #driver = webdriver.Firefox()
                     try:
@@ -161,8 +156,6 @@ def main_program():
                             driver.quit()
                             time.sleep(1)
                             print "\n_______________Starting Again_____________________\n"
-                            chromedriver = "F:\Tools\chromedriver"
-                            os.environ["webdriver.chrome.driver"] = chromedriver
                             driver = webdriver.Chrome(chromedriver)
                             #driver = webdriver.Firefox()
                             driver.get(url+str(i))
@@ -213,8 +206,6 @@ def main_program():
                         driver.quit()
                         time.sleep(1)
                         print "\n_______________Starting Again_____________________\n"
-                        chromedriver = "F:\Tools\chromedriver"
-                        os.environ["webdriver.chrome.driver"] = chromedriver
                         driver = webdriver.Chrome(chromedriver)
                         #driver = webdriver.Firefox()
                         driver.get(links[i])
