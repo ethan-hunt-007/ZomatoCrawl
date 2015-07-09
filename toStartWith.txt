@@ -1,5 +1,5 @@
-India
-https://www.zomato.com/ludhiana/?ref=lgo
-Ludhiana
-https://www.zomato.com/ludhiana/shivam-mishthan-bhandar-samrala-chowk
-0
+<Write the Country Name for which you wan't to crawl or leave blank for crawling all countries... For Eg.-> India>
+<Write the link of the city for which u want to crawl or leave blank for all cities... For Eg.-> https://www.zomato.com/ludhiana/?ref=lgo>
+<Write the city name or leave blank...For Eg.-> Ludhiana>
+<Write the Restaurant link or leave blank for all restaurants... For Eg.-> https://www.zomato.com/ludhiana/shivam-mishthan-bhandar-samrala-chowk>
+<Write 0 here for first time run>
