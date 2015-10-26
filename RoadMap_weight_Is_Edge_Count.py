@@ -4,7 +4,6 @@ import csv
 import matplotlib.pyplot as plt
 import math as mt
 import time
-from convert_LatLon_to_xy import *
 
 def main():
     global my_loc,gmaps,R,keys,zones
