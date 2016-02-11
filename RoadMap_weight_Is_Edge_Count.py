@@ -19,14 +19,15 @@ def main():
     my_loc = (22.587212, 88.374389)
     res_loc,xy = get_loc(path)
     G=nx.Graph()
-    for zone,num in zip(zones,xrange(len(zones))):
+    for zone,num in zip(zones[7:8],xrange(len(zones[7:8]))):
+        num=7
         print "Fetching graph of Zone_%d"%num
         gmaps = googlemaps.Client(key=keys[num])
         G.add_node("Zone_%d_%s"%(num,str(zone)),pos=zone)
         c=1
         res=1
         node_hash = {}
-        for loc in xy:
+        for loc in xy[1:5]:
             print res
             try:
                 location = get_directions(zone,loc)
