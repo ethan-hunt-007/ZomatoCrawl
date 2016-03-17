@@ -1,7 +1,9 @@
-# ZomatoCrawl
-##Crawls zomato database and reviews for restaurants
+# ZomatoCrawl and Restaurant Recommendation
+##Crawls zomato database and reviews for restaurants.
+##Building Kolkata road network using OpenstreetMaps
+##Making a recommendation system using reviews and features of restaurant and kolkata road network
 
-###This program was made when i was a 2nd year student and is still continued as my 4th year project
+###This my 4th year project
 
 The database crawler crawls the information of each and every restaurant from cuisines to location
 and facilities provided by a restaurant. There is a Country's.txt and toStartWith.txt file provided.
